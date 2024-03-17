@@ -51,7 +51,7 @@ const Countdown: React.FC = () => {
 function App() {
 	return (
 		<>
-			<video src={video} loop autoPlay muted className='video'></video>
+			<video src={video} loop muted autoPlay className='video'></video>
 			<main className="home">
 				<h1 className='heading'>Meet Astro</h1>
 				<h2 className='subheading'>Born in November, owns <a className='link' href="https://november.ma">November</a></h2>
