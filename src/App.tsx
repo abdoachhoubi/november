@@ -37,7 +37,7 @@ const Countdown: React.FC = () => {
 
 	return (
 		<div className='countdown'>
-			<h1>Countdown to November 2, 2024</h1>
+			<h1>Countdown to my 24th birthday</h1>
 			<div className='counter'>
 				<p>{timeLeft.months} <span>months</span></p><span>:</span>
 				<p>{timeLeft.days} <span>days</span></p><span>:</span>
@@ -51,7 +51,7 @@ const Countdown: React.FC = () => {
 function App() {
 	return (
 		<>
-			<video loop muted autoPlay className='video'>
+			<video playsInline loop muted autoPlay className='video'>
 				<source src={video} type="video/mp4" />
 			</video>
 			<main className="home">
