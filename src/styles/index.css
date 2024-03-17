@@ -22,6 +22,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.giphy-embed {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+}
+
 .video {
   width: 100vw;
   height: 100vh;
@@ -80,7 +88,7 @@ body {
   }
 }
 .home .subheading a {
-  color: #49ea25;
+  color: #ffffff;
   text-decoration: none;
 }
 .home .countdown {
@@ -102,7 +110,7 @@ body {
 }
 .home .countdown .counter p {
   font-size: 3rem;
-  color: #49ea25;
+  color: #ffffff;
 }
 @media screen and (max-width: 900px) {
   .home .countdown .counter p {

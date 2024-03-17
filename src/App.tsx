@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import video from './assets/videos/video.mp4';
+import gif from './assets/gifs/giphy.gif';
 
 
 const Countdown: React.FC = () => {
@@ -51,9 +51,7 @@ const Countdown: React.FC = () => {
 function App() {
 	return (
 		<>
-			<video playsInline loop muted autoPlay className='video'>
-				<source src={video} type="video/mp4" />
-			</video>
+			<img src={gif} className='giphy-embed' alt="" />
 			<main className="home">
 				<h1 className='heading'>Meet Astro</h1>
 				<h2 className='subheading'>Born in November, owns <a className='link' href="https://november.ma">November</a></h2>
